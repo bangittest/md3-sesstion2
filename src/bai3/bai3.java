@@ -1,7 +1,4 @@
 package bai3;
-
-import java.util.Scanner;
-
 public class bai3 {
     public static void main(String[] args) {
         System.out.println("cac so nguyen to nho hon 100 la :");
@@ -10,9 +7,7 @@ public class bai3 {
                 System.out.println(number);
             }
         }
-
     }
-
     public static boolean isPrive(int number) {
         if (number <=1){
             return false;
